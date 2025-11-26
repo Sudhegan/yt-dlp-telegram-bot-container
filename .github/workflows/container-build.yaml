@@ -32,6 +32,7 @@ jobs:
         name: build and push
         uses: docker/build-push-action@v6
         with:
+          push: true
           context: container
           platforms: linux/amd64,linux/arm64,linux/arm64/v8
           file: container/Dockerfile
