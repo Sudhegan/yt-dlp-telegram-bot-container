@@ -17,8 +17,8 @@ jobs:
         name: checkout yt-dlp-telgram-bot
         uses: actions/checkout@v6
         with:
-          repository: nonoo/yt-dlp-telegram-bot
-          ref: main
+          repository: SilentDemonSD/WZML-X
+          ref: wzv3
           path: container
       -
         name: container registry login
